@@ -1,0 +1,54 @@
+.txt{
+    font-family: orpheuspro, serif;
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: -4px;
+    font-size: 50px;
+    color: white;    
+}
+.txt2{
+    font-family: orpheuspro, serif;
+    font-style: none;
+    font-weight: 400;
+    letter-spacing: 0px;
+    font-size: 17px;
+    color: white;    
+}
+.txt3{
+    font-family: orpheuspro, serif;
+    font-style: none;
+    font-weight: 400;
+    letter-spacing: 0px;
+    font-size: 25px;
+    color: white;    
+}
+.shopc{
+    margin-top: 25px;
+    margin-bottom:25px!important; 
+}
+body{
+    background-color: black!important;
+}
+.blackbg{
+    background-color: black!important;
+}
+.heropart{
+    height:100%;
+}
+
+.navf {
+  background-color: yellow; 
+  list-style-type: none;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+.navf .lif {
+  display: inline-block;
+  font-size: 20px;
+  padding: 20px;
+}
+.bordered{
+    border-bottom: 2px solid white;
+}
