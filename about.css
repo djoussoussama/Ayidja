@@ -1,0 +1,91 @@
+body{
+    background-color: #f7bd8d!important;
+}
+
+.txt{
+    font-family: orpheuspro, serif;
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: -4px;
+    font-size: 50px;
+    color: #D14319;
+    /*color: #C43C23;*/
+}
+.txthero
+{
+    font-family: orpheuspro, serif;
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: -6px;
+    word-spacing: 7px;
+    font-size: 62px;
+    
+    padding-right: 170px;
+    color: #D14319;    
+}
+
+.txtabout{
+    font-family: orpheuspro, serif;
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: -2px;
+    font-size: 40px;
+    color: #D14319;
+    padding-right: 170px;
+}
+.txt2{
+    font-family: orpheuspro, serif;
+    font-style: none;
+    font-weight: 400;
+    letter-spacing: 0px;
+    font-size: 17px;
+    color: black;
+}
+.txt3{
+    font-family: orpheuspro, serif;
+    font-style: none;
+    font-weight: 400;
+    letter-spacing: 0px;
+    font-size: 25px;
+    color: white;
+}
+
+.navf {
+  background-color: yellow;
+  list-style-type: none;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+.navf .lif {
+  display: inline-block;
+  font-size: 20px;
+  padding: 20px;
+}
+.bordered{
+    border-bottom: 2px solid black;
+}
+
+.heropart{
+    height:100%;
+}
+.spacing{
+    padding:70px;
+}
+
+@media screen and (max-width: 770px) {
+    .spacing{
+        padding:50px;
+    }
+    .txthero{
+        letter-spacing: -4px;
+        font-size: 40px;
+        padding-right: 0px;
+    }
+    .txtabout{
+        letter-spacing: -2px;
+        font-size: 27px;
+        padding-right: 0px;
+    }
+}
